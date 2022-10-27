@@ -1,0 +1,41 @@
+.Select {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.Select label {
+  color: #000000;
+  font-weight: 400;
+  margin: 0 0.4rem;
+}
+
+.Select select {
+  width: 100%;
+  border-radius: 0.8rem;
+  background-color: #fff;
+  color: #000;
+  font-weight: 500;
+  padding: 1.2rem 1.4rem;
+  border: 1px solid #aaa;
+  margin: 0.4rem 0;
+}
+
+.Select select::placeholder {
+  color: #0000004D;
+}
+
+.Select select:disabled {
+  background-color: #F3F5FF;
+  border: 1px solid #0000004D;
+  color: #0000004D;
+  font-weight: 500;
+  cursor: no-drop;
+}
+
+.Select span{
+  font-size: small;
+  color: #7a7a7a;
+  margin: 0 0.8rem;
+}

@@ -1,0 +1,24 @@
+.PageComponent{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #323232;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+}
+
+.Header{
+  width: 100%;
+  height: 220px;
+  background-color: #002776;
+}
+
+.PageComponent main{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 12rem;
+}
